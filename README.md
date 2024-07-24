@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proyecto: Sitio web SaaS con Next.js, Tailwind CSS y Framer Motion
 
-## Getting Started
+**Descripción:**
 
-First, run the development server:
+Este proyecto es una implementación de un sitio web SaaS utilizando las tecnologías Next.js, Tailwind CSS y Framer Motion. El diseño se basa en el kit de UI de Figma [https://www.figma.com/community/file/1347551304372055519/saas-website-ui-kit-framer-website-kit] y fue desarrollado siguiendo los tutoriales de Frontend Tribe.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Tecnologías Utilizadas:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js:** Framework de React para la creación de aplicaciones web de producción.
+- **Tailwind CSS:** Framework de utilidad para el estilo rápido y eficiente.
+- **Framer Motion:** Biblioteca para la creación de animaciones y efectos interactivos.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Características:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Diseño responsivo:** El sitio se adapta a diferentes tamaños de pantalla.
+- **Efectos parallax:** Implementación de efectos parallax siguiendo el diseño de Figma, gracias a Framer Motion.
+- **Componentes reutilizables:** Creación de componentes personalizados para mejorar la mantenibilidad del código.
+- **Optimización para SEO:** Implementación de buenas prácticas para el posicionamiento en buscadores.
 
-## Learn More
+**Aprendizaje:**
 
-To learn more about Next.js, take a look at the following resources:
+Durante el desarrollo de este proyecto, aprendí a:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Configurar y utilizar Next.js, Tailwind CSS y Framer Motion en un proyecto real.
+- Crear componentes personalizados y reutilizables en React.
+- Implementar efectos parallax utilizando Framer Motion.
+- Optimizar el rendimiento de una aplicación web.
+- Seguir un diseño de Figma y adaptarlo a código.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Cómo ejecutar el proyecto:**
 
-## Deploy on Vercel
+1. **Clonar el repositorio:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://tu-repositorio.git
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```
+
+2. **cd tu-proyecto:**
+   npm install
+
+3. **correr el proyecto**
+   npm run dev
